@@ -15,9 +15,10 @@ body {
   font-family: "Yaldevi", sans-serif;
 }
 
-img[alt="The Marshall Mathers LP"] {
-  width: 30%;
+img[alt="The Marshall Mathers LP"],
+.musica img {
   min-width: 150px;
+  width: 30%;
   display: inline-block;
   vertical-align: top;
 }
@@ -82,6 +83,10 @@ img[alt="The Marshall Mathers LP"]::before {
   background-color: #17a398;
 }
 
+.hobbies > article h2 {
+  color: white;
+}
+
 .videojuegos > img {
   /* height: 100%; */
   width: 100%;
@@ -124,6 +129,7 @@ em[id="mortal-kombat"] {
 
 .basket {
   background-color: #fc814a;
+  display: inline-block;
 }
 
 .basket > .titulo-decorado {
@@ -136,7 +142,42 @@ em[id="mortal-kombat"] {
   /* border-radius: 70px; */
   width: fit-content;
   /* background-color: #17a398; */
-  background-color: #1f0200
-;
-  
+  background-color: #1f0200;
+}
+
+.basket > .titulo-decorado:hover {
+  color: #1f0200;
+  background-color: white;
+}
+
+.basket p {
+  background-color: #1f0200;
+  color: white;
+  /* width: 100%; */
+  text-align: justify;
+  margin: 5px;
+}
+
+.grupo-img-musica {
+  display: inline-block;
+  width: min-content;
+}
+
+.basket img {
+  width: 100%;
+  height: 300px;
+  /* overflow: hidden; */
+  object-fit: cover;
+}
+
+/* Quería poner los dos primeros artículos lado a lado, pero ya no lo logré. */
+
+.dos-articulos-horizontales {
+  display: block;
+  position: relative;
+}
+
+.dos-articulos-horizontales > {
+  width: 50%;
+  display: inline-block;
 }
