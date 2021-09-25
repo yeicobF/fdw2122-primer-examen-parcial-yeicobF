@@ -7,7 +7,7 @@
 .barra-lateral {
   font-family: "Karla", sans-serif;
   background-color: #6ca9b9;
-  position: relative;
+  position: fixed;
   width: 350px;
   color: white;
   height: 100vh;
@@ -67,4 +67,15 @@ para luego, colocar los elementos hasta abajo de este contenedor.
   padding-bottom: 10px;
   font-weight: bold;
   text-align: center;
+}
+
+/* No será la mejor práctica, pero para utilizar
+un selector de atributo. */
+[texto-mayuscula] {
+  text-transform: uppercase;
+}
+
+.fecha-examen [datetime] {
+  color: #011525;
+  font-family: 'Yaldevi', sans-serif;
 }

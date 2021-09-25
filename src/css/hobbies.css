@@ -1,5 +1,7 @@
 .hobbies {
-  display: inline-block;
+  display: block;
+  /* Margen izquierdo tomando en cuenta el side bar. */
+  margin-left: 350px;
   background-color: #ececec;
   padding: 20px 30px;
 }
