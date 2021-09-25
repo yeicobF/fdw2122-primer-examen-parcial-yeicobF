@@ -34,3 +34,8 @@ pero sí similar respecto a estructura.
 ![FDW - EXAMEN 1P - Imagen ejemplo de cómo podría quedar el sitio](FDW_1P_ImagenEjemploResultadoProfe_Web%201920%20–%201.png "FDW - EXAMEN 1P - Imagen ejemplo de cómo podría quedar el sitio")
 
 ## RESULTADOS (Screenshots)
+
+## FUENTES
+
+- [https://www.freecodecamp.org/news/semantic-html5-elements/](https://www.freecodecamp.org/news/semantic-html5-elements/ "https://www.freecodecamp.org/news/semantic-html5-elements/")
+- [https://www.w3schools.com/html/html5_semantic_elements.asp](https://www.w3schools.com/html/html5_semantic_elements.asp "https://www.w3schools.com/html/html5_semantic_elements.asp")
