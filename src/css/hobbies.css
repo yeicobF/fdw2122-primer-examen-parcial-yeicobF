@@ -52,7 +52,11 @@ img[alt="The Marshall Mathers LP"]::before {
 #articulo-2 { */
 
 /* Le pongo margen a todos los hijos, menos al último. */
-.hobbies :not(:last-child) {
+/*
+Tenía que indicar que eran los hijos directos, ya que se aplicó
+el margen a más elementos hijos de hijos que no tenían que ser.
+*/
+.hobbies > :not(:last-child) {
   /*
   Esto es lo mismo que lo siguiente:
     
