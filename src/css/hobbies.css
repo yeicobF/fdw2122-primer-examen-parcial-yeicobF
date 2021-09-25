@@ -4,11 +4,14 @@
   margin-left: 350px;
   background-color: #ececec;
   padding: 20px 30px;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 img[alt="The Marshall Mathers LP"] {
-  width: 300px;
+  width: 30%;
+  min-width: 150px;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .hobbies > article {
@@ -23,4 +26,21 @@ img[alt="The Marshall Mathers LP"] {
 #articulo-1,
 #articulo-2 {
   margin-bottom: 40px;
+}
+
+.musica > h2 {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10px;
+}
+
+.musica > figure {
+  display: flex;
+}
+
+.musica .descripcion-imagen {
+  /* Podría utilizar solo 65%, pero era para no olvidar este método. */
+  width: calc(100% - 35%);
+  margin-left: 5px;
+  vertical-align: top;
 }
