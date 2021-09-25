@@ -121,3 +121,22 @@ em[id="mortal-kombat"] {
 .hobbies > .basket p {
   padding: 20px;
 }
+
+.basket {
+  background-color: #fc814a;
+}
+
+.basket > .titulo-decorado {
+  display: block;
+  position: sticky;
+  bottom: 0;
+  color: white;
+  padding: 10px 30px;
+  margin: 5px;
+  /* border-radius: 70px; */
+  width: fit-content;
+  /* background-color: #17a398; */
+  background-color: #1f0200
+;
+  
+}
