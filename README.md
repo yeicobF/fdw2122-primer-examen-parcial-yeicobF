@@ -15,7 +15,8 @@ con los siguientes elementos:
 3. Un contenedor más grande en el que van a poner 3 secciones con algo que les
    guste, como un hobbie. Cada una de estas secciones debe tener un diseño
    distinto, pero siempre teniendo los siguientes elementos:
-   - Una imagen•Un encabezado
+   - Una imagen
+   - Un encabezado
    - Una descripción de la sección (ej. Si la sección es de música, pueden poner
      el tipo y las bandas que más les guste)
 4. Para aplicar los estilos se deben usar al menos 1 selector de cada tipo:
