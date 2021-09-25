@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.barra-lateral {
+  background-color: #6ca9b9;
+  position: sticky;
+  min-width: 350px;
+  width: 30%;
+  color: white;
+  height: 100vh;
+}
+
+.barra-lateral > header,
+.barra-lateral > section > address,
+.barra-lateral > footer {
+  padding: 20px;
+}
+
+.foto-y-nombre {
+  width: 100%;
+}
+
+#foto-perfil {
+  width: 70%;
+  border-radius: 50%;
+  /* height: 70%; */
+  /* object-fit: cover; */
+  margin: 0 auto;
+  display: block;
+}
+
+.informacion p {
+  font-style: normal;
+}
+
+.informacion > h2{
+  background-color: #1e4e72;
+  width: 90%;
+  padding: 5px 10px 5px 20px;
+  border-bottom-right-radius: 50px;
+}

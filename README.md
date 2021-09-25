@@ -39,3 +39,4 @@ pero sí similar respecto a estructura.
 
 - [https://www.freecodecamp.org/news/semantic-html5-elements/](https://www.freecodecamp.org/news/semantic-html5-elements/ "https://www.freecodecamp.org/news/semantic-html5-elements/")
 - [https://www.w3schools.com/html/html5_semantic_elements.asp](https://www.w3schools.com/html/html5_semantic_elements.asp "https://www.w3schools.com/html/html5_semantic_elements.asp")
+- [https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time#usage_notes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time#usage_notes "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time#usage_notes")
