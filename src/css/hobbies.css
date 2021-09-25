@@ -48,8 +48,20 @@ img[alt="The Marshall Mathers LP"]::before {
 }
 
 /* Artículo 1 y 2 pongo margen abajo, y al otro ya no. */
-#articulo-1,
-#articulo-2 {
+/* #articulo-1,
+#articulo-2 { */
+
+/* Le pongo margen a todos los hijos, menos al último. */
+.hobbies :not(:last-child) {
+  /*
+  Esto es lo mismo que lo siguiente:
+    
+    ```
+    #articulo-1,
+    #articulo-2 {}
+    ```
+
+  */
   margin-bottom: 40px;
 }
 
@@ -150,12 +162,23 @@ em[id="mortal-kombat"] {
   background-color: white;
 }
 
+.basket > .titulo-decorado::selection {
+  background-color: #fc814a;
+  color: white;
+}
+
 .basket p {
   background-color: #1f0200;
   color: white;
   /* width: 100%; */
   text-align: justify;
   margin: 5px;
+}
+
+.basket p::selection,
+.basket p > ::selection {
+  background-color: white;
+  color: #1f0200;
 }
 
 .grupo-img-musica {

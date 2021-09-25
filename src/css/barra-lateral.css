@@ -27,7 +27,12 @@
 }
 
 #foto-perfil {
-  width: 70%;
+  /* width: 70%; */
+  width: 220px;
+  height: 220px;
+  /* Con object-fit hacemos que no se estire la imagen. */
+  object-fit: cover;
+
   border-radius: 50%;
   /* height: 70%; */
   /* object-fit: cover; */
@@ -60,7 +65,6 @@ para luego, colocar los elementos hasta abajo de este contenedor.
   /* height: 100%; */
   /* position: relative; */
   margin-top: 40px;
-
 }
 
 .barra-lateral > footer > .footer-bottom {
@@ -82,5 +86,5 @@ un selector de atributo. */
 
 .fecha-examen [datetime] {
   color: #011525;
-  font-family: 'Yaldevi', sans-serif;
+  font-family: "Yaldevi", sans-serif;
 }
