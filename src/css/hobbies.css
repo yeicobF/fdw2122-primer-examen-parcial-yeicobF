@@ -1,10 +1,18 @@
+body {
+  background-color: #ececec;
+  min-width: 660px;
+}
+
 .hobbies {
   display: block;
+  position: relative;
+  width: calc(100% - 350px);
   /* Margen izquierdo tomando en cuenta el side bar. */
   margin-left: 350px;
-  background-color: #ececec;
+  /* background-color: #ececec; */
   padding: 20px 30px;
   /* height: 100vh; */
+  font-family: "Yaldevi", sans-serif;
 }
 
 img[alt="The Marshall Mathers LP"] {
@@ -14,12 +22,28 @@ img[alt="The Marshall Mathers LP"] {
   vertical-align: top;
 }
 
+img[alt="The Marshall Mathers LP"]::before {
+  /* content: '';
+  width: 5px;
+  background-color: #FFBA10; */
+}
+
 .hobbies > article {
-  padding: 20px;
   /* border: solid 1px tomato; */
   /* border: solid 1px #011525; */
-  box-shadow: 5px 5px 10px hsla(207, 95%, 7%, 0.300);
+  box-shadow: 5px 5px 10px hsla(207, 95%, 7%, 0.3);
+  position: relative;
+  width: 100%;
   /* filter: drop-shadow(-5px 5px 3.5px hsla(65, 83%, 59%, 0.5)); */
+}
+
+.hobbies > .videojuegos,
+.hobbies > .musica {
+  padding: 20px;
+}
+
+.hobbies img {
+  max-width: 100%;
 }
 
 /* Artículo 1 y 2 pongo margen abajo, y al otro ya no. */
@@ -28,14 +52,22 @@ img[alt="The Marshall Mathers LP"] {
   margin-bottom: 40px;
 }
 
+.musica {
+  background-color: #ad7a99;
+}
+
 .musica > h2 {
   display: inline-block;
   vertical-align: top;
   margin-left: 10px;
 }
 
-.musica > figure {
+/* .musica > figure {
   display: flex;
+} */
+
+.descripcion-imagen {
+  text-align: justify;
 }
 
 .musica .descripcion-imagen {
@@ -43,4 +75,49 @@ img[alt="The Marshall Mathers LP"] {
   width: calc(100% - 35%);
   margin-left: 5px;
   vertical-align: top;
+  display: inline-block;
+}
+
+.videojuegos {
+  background-color: #17a398;
+}
+
+.videojuegos > img {
+  /* height: 100%; */
+  width: 100%;
+  border-radius: 10px;
+}
+
+.videojuegos h2::selection,
+.videojuegos p::selection {
+  color: white;
+  background-color: #253d5b;
+}
+
+.videojuegos h2 {
+  text-align: right;
+}
+
+.videojuegos p {
+  text-align: justify;
+}
+
+em {
+  font-weight: 900;
+}
+
+em[id="mortal-kombat"]::before {
+  content: '"';
+}
+
+em[id="mortal-kombat"]::after {
+  content: '"';
+}
+
+em[id="mortal-kombat"] {
+  text-decoration: underline;
+}
+
+.hobbies > .basket p {
+  padding: 20px;
 }
