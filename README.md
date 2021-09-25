@@ -35,6 +35,12 @@ pero sí similar respecto a estructura.
 
 ## RESULTADOS (Screenshots)
 
+![Resultado final sitio web #1](SS_RESULTADOS/FDW_Ex1P_RESULTADOS-1.jpeg "Resultado final sitio web #1")
+![Resultado final sitio web #2](SS_RESULTADOS/FDW_Ex1P_RESULTADOS-2.jpeg "Resultado final sitio web #2")
+![Resultado final sitio web #3](SS_RESULTADOS/FDW_Ex1P_RESULTADOS-3.jpeg "Resultado final sitio web #3")
+![Resultado final sitio web #4](SS_RESULTADOS/FDW_Ex1P_RESULTADOS-4.jpeg "Resultado final sitio web #4")
+![Resultado final sitio web #5](SS_RESULTADOS/FDW_Ex1P_RESULTADOS-5.jpeg "Resultado final sitio web #5")
+
 ## FUENTES
 
 - [https://www.freecodecamp.org/news/semantic-html5-elements/](https://www.freecodecamp.org/news/semantic-html5-elements/ "https://www.freecodecamp.org/news/semantic-html5-elements/")
