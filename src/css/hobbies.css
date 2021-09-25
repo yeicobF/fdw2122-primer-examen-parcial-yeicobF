@@ -4,4 +4,23 @@
   margin-left: 350px;
   background-color: #ececec;
   padding: 20px 30px;
+  height: 100vh;
+}
+
+img[alt="The Marshall Mathers LP"] {
+  width: 300px;
+}
+
+.hobbies > article {
+  padding: 20px;
+  /* border: solid 1px tomato; */
+  /* border: solid 1px #011525; */
+  box-shadow: 5px 5px 10px hsla(207, 95%, 7%, 0.300);
+  /* filter: drop-shadow(-5px 5px 3.5px hsla(65, 83%, 59%, 0.5)); */
+}
+
+/* Artículo 1 y 2 pongo margen abajo, y al otro ya no. */
+#articulo-1,
+#articulo-2 {
+  margin-bottom: 40px;
 }

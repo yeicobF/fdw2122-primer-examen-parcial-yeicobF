@@ -40,10 +40,15 @@
 }
 
 .informacion > h2 {
+  /* background-color: #1e4e72; */
   background-color: #1e4e72;
   width: 90%;
   padding: 5px 10px 5px 20px;
   border-bottom-right-radius: 50px;
+}
+
+.informacion h2:hover {
+  background-color: #011525;
 }
 
 /*
